@@ -3,3 +3,8 @@ font-family: sans-serif;
 color: rgb(199, 57, 199);
 }
 
+.link {
+    text-decoration: none;
+    text-decoration-color: lightgrey;
+    text-decoration-style: none;
+}
