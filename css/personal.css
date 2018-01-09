@@ -1,9 +1,51 @@
 body {
-font-family: sans-serif;
-color: rgb(199, 57, 199);
-}
-
-a.links {
-    outline-style: thin solid;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    }
     
-}
+    .container {
+        display: block;
+    }
+    
+    .clearfix {
+        clear: both;
+        padding-top: 1em;
+    }
+    
+    h1 {
+        font-family: serif;
+        font-variant: small-caps;
+        color: #8B008B;
+    }
+    
+    a:link {
+        font-size: 1em;
+        color: #8B008B;
+        font-size: 14px;
+        font-variant: small-caps;
+    }
+    a:hover {
+        color: grey;
+        text-decoration: none;
+        font-family: 'Lucida Console';
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    
+    .main-img {
+        box-shadow: -.75px 10px 10px #888888;
+        float: left;
+    }
+    
+    li {
+        list-style: none;
+        letter-spacing: 2px;
+    }
+    
+    footer {
+        font-style: italic;
+        font-size: small;
+        color: lightgrey;
+    }
