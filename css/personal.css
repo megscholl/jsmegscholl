@@ -1,3 +1,4 @@
+/* ====== MAIN SECTIONS ====== */
 html {
 	background-color: lightgrey;
 }
@@ -7,6 +8,16 @@ font-family: sans-serif;
 color: black;
 text-align: center;
 }
+
+
+footer {
+	font-style: italic;
+	font-family: serif;
+	font-size: small;
+	color: grey;
+}
+
+/* ====== MAIN SELECTORS ====== */
 
 h1 {
 	font-family: serif;
@@ -22,15 +33,6 @@ li {
 	list-style: none;
 	letter-spacing: 2px;
 }
-
-footer {
-	font-style: italic;
-	font-family: serif;
-	font-size: small;
-	color: grey;
-}
-
-
 
 /* ======= CLASSES ======= */
 
@@ -78,9 +80,13 @@ a:hover {
 	font-size: 14px;
 }
 
+/* ======= ID's ======= */
+
 #summary {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid black;
+	padding: 100px 150px 0px 20px;
+	color: grey;
+	letter-spacing: 1px;
 }
