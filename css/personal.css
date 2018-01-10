@@ -9,13 +9,14 @@ color: black;
 text-align: center;
 }
 
-
 footer {
 	font-style: italic;
 	font-family: serif;
 	font-size: small;
 	color: grey;
 }
+
+
 
 /* ====== MAIN SELECTORS ====== */
 
@@ -33,6 +34,8 @@ li {
 	list-style: none;
 	letter-spacing: 2px;
 }
+
+
 
 /* ======= CLASSES ======= */
 
@@ -63,11 +66,14 @@ a:hover {
 	background-color: white;
 	padding: 1em;
 }
+
 .main-img {
 	box-shadow: -.75px 10px 10px #888888;
 	float: left;
 	margin-left: 16%;
-	border-radius: 300px;
+	border-radius: 50%;
+	width: 230px;
+	height: 250px;
 }
 
 .wrapper {
