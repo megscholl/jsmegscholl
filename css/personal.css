@@ -87,6 +87,10 @@ nav a:hover {
 	height: 250px;
 }
 
+#main-img {
+	padding-bottom: 2em;
+}
+
 .wrapper {
 	color: grey;
 	text-align: none;
