@@ -23,7 +23,7 @@ main {
 	justify-content: center;
 }
 
-p {
+index p {
 	padding-right: 10em;
 }
 
@@ -61,23 +61,6 @@ footer p {
 	padding-top: 1em;
 }
 
-a:link {
-    font-size: 1em;
-	color: #8B008B;
-	font-size: 14px;
-	font-variant: small-caps;
-	text-decoration: none;
-}
-nav a:hover {
-    color: 8B008B;
-	text-decoration: none;
-	font-family: 'Lucida Console';
-	font-size: 12px;
-	line-height: 1.5;
-	outline: 1px dashed black;
-	background-color: white;
-	padding: 1em;
-}
 
 .main-img {
 	box-shadow: -.75px 10px 10px #888888;
@@ -112,4 +95,26 @@ nav a:hover {
 	letter-spacing: 1px;
 }
 
+/*=========PSEUDO CLASSES==========*/
 
+a:link {
+    font-size: 1em;
+	color: #8B008B;
+	font-size: 14px;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+nav a:hover {
+    color: #8B008B;
+	text-decoration: none;
+	font-family: 'Lucida Console';
+	font-size: 12px;
+	line-height: 1.5;
+	outline: 1px dashed black;
+	background-color: white;
+	padding: 1em;
+}
+
+a:visited {
+	color: grey;
+}
