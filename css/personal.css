@@ -54,7 +54,11 @@ footer p {
 
 /* ======= CLASSES ======= */
 
-
+.intro {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .clearfix {
 	clear: both;
@@ -70,9 +74,6 @@ footer p {
 	height: 250px;
 }
 
-#main-img {
-	padding-bottom: 2em;
-}
 
 .wrapper {
 	color: grey;
@@ -84,7 +85,11 @@ footer p {
 	font-size: 14px;
 }
 
-/* ======= ID's and CLASSES ======= */
+/* ======= ID's ======= */
+
+#main-img {
+	padding-bottom: 2em;
+}
 
 #summary {
 	display: flex;
