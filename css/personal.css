@@ -106,10 +106,10 @@ footer p {
 	margin-right: auto;
 }
 
-.clearfix {
+/* .clearfix {
 	clear: both;
 	padding-top: 1em;
-}
+} */
 
 
 .main-img {
@@ -121,7 +121,7 @@ footer p {
 }
 
 
-.wrapper {
+/* .wrapper {
 	color: grey;
 	text-align: none;
 	display: block;
@@ -129,23 +129,11 @@ footer p {
 	margin-right: 150px;
 	padding-left: 30em;
 	font-size: 14px;
-}
+} */
 
 /* ======= ID's ======= */
 
-#main-img {
-	padding-bottom: 2em;
-	padding-right: 10em;
-}
 
-#summary {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 100px 150px 0px 20px;
-	color: grey;
-	letter-spacing: 1px;
-}
 
 #flex-intro {
 	display: block;
@@ -176,7 +164,6 @@ nav a:hover {
 a:visited {
 	color: grey;
 }
-
 
 
 /* ==========MEDIA============ */
