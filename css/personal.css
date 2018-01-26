@@ -10,6 +10,13 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+.amp-header {
+    background-image: url("../images/blank_ampersand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: .2em;
+    }
+
 body {
 font-family: sans-serif;
 color: black;
@@ -25,12 +32,33 @@ footer {
 main {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 12em;
+	/* padding-left: 12em; */
 	justify-content: center;
+	width: 100%;
+	/* margin-left: auto;
+	margin-right: auto; */
 }
 
 index p {
 	padding-right: 10em;
+}
+
+.introContainer {
+	display: block;
+    min-width: 40%;
+    width: 70%;
+	margin-left: auto;
+	/* padding-right: 4.5em; */
+	margin-right: auto;
+}
+
+.blogContainer {
+	display: block;
+    min-width: 40%;
+    width: 70%;
+	margin-left: auto;
+	padding-right: 4.5em;
+	/* margin-right: auto; */
 }
 
 /* ====== MAIN SELECTORS ====== */
