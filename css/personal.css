@@ -186,3 +186,14 @@ a:visited {
 		padding: auto;
 	}
 }
+
+/* ===== FEATURES =====*/
+.purpleAmps {
+	color: #8B008B;
+}
+
+h1 a:hover {
+	outline: 1px dashed black;
+	padding-top: 5em;
+	padding-right: 10px;
+}
