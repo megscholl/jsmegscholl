@@ -1,7 +1,13 @@
 /* ====== MAIN SECTIONS ====== */
 html {
-	background-color: lightgrey;
+	background-color: rgb(233, 233, 233);
 	text-align: center;
+}
+
+header {
+background-image: url("../images/blank_ampersand.png");
+background-repeat: no-repeat;
+background-position: center;
 }
 
 body {
@@ -30,12 +36,22 @@ index p {
 /* ====== MAIN SELECTORS ====== */
 
 h1 {
-	font-family: serif;
+	font-family: 'trebuchet ms', sans-serif;
 	font-variant: small-caps;
-	color: #8B008B;
-	font-size: 62px;
+	color: rgb(78, 72, 72);
+	font-size: 45px;
 	text-align: center;
+	letter-spacing: 15px;
+	line-height: .8;
 }
+
+.purple {
+	font-family: serif;
+	color: #8B008B;
+	font-size: 110px;
+	letter-spacing: -8px;
+}
+
 /* QUESTION --> HOW DO I TRULY CENTER THE TEXT? 
 It's not truly centered on the page... */
 
@@ -89,6 +105,7 @@ footer p {
 
 #main-img {
 	padding-bottom: 2em;
+	padding-right: 10em;
 }
 
 #summary {
@@ -98,6 +115,12 @@ footer p {
 	padding: 100px 150px 0px 20px;
 	color: grey;
 	letter-spacing: 1px;
+}
+
+#flex-intro {
+	display: block;
+	max-width: 60%;
+	min-width: 40%
 }
 
 /*=========PSEUDO CLASSES==========*/
@@ -122,4 +145,14 @@ nav a:hover {
 
 a:visited {
 	color: grey;
+}
+
+
+
+/* ==========MEDIA============ */
+
+@media (min-width: 732px) {
+	#snapOS{
+		padding: auto;
+	}
 }
