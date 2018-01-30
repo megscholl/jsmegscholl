@@ -5,21 +5,16 @@ html {
 }
 
 header {
+	font-family: "Trebuchet MS", sans-serif;
 background-image: url("../images/blank_ampersand.png");
 background-repeat: no-repeat;
 background-position: center;
 }
 
-.amp-header {
-    background-image: url("../images/blank_ampersand.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: .2em;
-    }
 
 body {
-font-family: sans-serif;
-color: black;
+	font-family: Verdana, sans-serif;
+	color: black;
 }
 
 footer {
@@ -45,28 +40,10 @@ index p {
 	padding-right: 10em;
 }
 
-.introContainer {
-	display: block;
-    min-width: 40%;
-    width: 70%;
-	margin-left: auto;
-	/* padding-right: 4.5em; */
-	margin-right: auto;
-}
-
-.blogContainer {
-	display: block;
-    min-width: 40%;
-    width: 70%;
-	margin-left: auto;
-	padding-right: 4.5em;
-	/* margin-right: auto; */
-}
 
 /* ====== MAIN SELECTORS ====== */
 
 h1 {
-	font-family: 'trebuchet ms', sans-serif;
 	font-variant: small-caps;
 	color: rgb(78, 72, 72);
 	font-size: 45px;
@@ -75,12 +52,6 @@ h1 {
 	line-height: .8;
 }
 
-.purple {
-	font-family: serif;
-	color: #8B008B;
-	font-size: 110px;
-	letter-spacing: -8px;
-}
 
 /* QUESTION --> HOW DO I TRULY CENTER THE TEXT? 
 It's not truly centered on the page... */
@@ -100,6 +71,31 @@ footer p {
 
 /* ======= CLASSES ======= */
 
+.introContainer {
+	display: block;
+    min-width: 40%;
+    width: 70%;
+	margin-left: auto;
+	/* padding-right: 4.5em; */
+	margin-right: auto;
+}
+
+.blogContainer {
+	display: block;
+    min-width: 40%;
+    width: 70%;
+	margin-left: auto;
+	padding-right: 4.5em;
+	/* margin-right: auto; */
+}
+
+.amp-header {
+    background-image: url("../images/blank_ampersand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: .2em;
+}
+	
 .intro {
 	width: 40%;
 	margin-left: auto;
@@ -120,6 +116,12 @@ footer p {
 	height: 250px;
 }
 
+.purple {
+	font-family: serif;
+	color: #8B008B;
+	font-size: 110px;
+	letter-spacing: -8px;
+}
 
 /* .wrapper {
 	color: grey;
@@ -130,6 +132,12 @@ footer p {
 	padding-left: 30em;
 	font-size: 14px;
 } */
+
+.workFont {
+	color: #8B008B;
+	font-style: italic;
+}
+
 
 /* ======= ID's ======= */
 
