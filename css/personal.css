@@ -154,10 +154,10 @@ nav a:hover {
     color: #8B008B;
 	text-decoration: none;
 	font-family: 'Lucida Console';
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5;
-	outline: 1px dashed black;
-	background-color: white;
+	outline: 1px dashed rgba(0, 0, 0, 0.685);
+	background-color: rgba(255, 253, 253, 0.288);
 	padding: 1em;
 }
 
@@ -180,7 +180,7 @@ a:visited {
 }
 
 h1 a:hover {
-	outline: 1px dashed black;
+	text-shadow: 0px 1px 1px rgb(78, 72, 72);
 	padding-top: 5em;
-	padding-right: 10px;
+	/* padding-right: 10px; */
 }
