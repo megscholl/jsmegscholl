@@ -17,9 +17,9 @@ function blogs(title, date, time, entry) {
 }
 
 
-const blog001 = Object.create(blogPosts)
-const blog002 = Object.create(blogPosts)
-const blog003 = Object.create(blogPosts)
+const blog001 = Object.create(blogPosts);
+const blog002 = Object.create(blogPosts);
+const blog003 = Object.create(blogPosts);
 // const blog004 = Object.create(blogPosts)
 // const blog005 = Object.create(blogPosts)
 // const blog006 = Object.create(blogPosts)
@@ -27,14 +27,29 @@ const blog003 = Object.create(blogPosts)
 
 
 
+// BLOG ENTRY 001 FROM JAN 5, 2018
+// SUMMARY: Coming home from London I received an email from NSS, excited and a little doomed
 
-blog001.title = "<span class='blog-header'>blog post #001 <br> 1/05/2018 &#124\; 8:19pm</span>";
+blog001.title = "";
 blog001.blogEntry = "<p>I received my acceptance email when I turned my phone\'s airplane mode off from my trip back from London, England. I\'m not sure if that was the exact moment I received it, or if it\'d been sent a week prior and my roaming allowances never allowed it to actually come through. Even so, I was ecstatic. The gent next to me on the long plane home was saying something to me along the lines of \"thanks for keeping me company during the ride\" or \"it was nice to have met you, safe travels.\" I know it was generous and heart-warming, but I was giddy with excitement scrolling through my Google Pixel's screen displaying the email from Nashville Software School.</p> I was excited, and also a little frustrated. I\'d been warned about \"pre-work\", and I kept it in the back of my mind. But the email said we would start January 2nd. The day I received my acceptance was December 15th. I felt slightly doomed. I\'d figured for weeks that I must not have gotten in, so I picked up numerous shifts at my job, Christmas was coming up, and I had another trip to Florida with the family... Those aren't exactly the best conditions for staring at my computer watching and learning, crunching down on any type of work at all, especially coding... But, I did it anyways. I said Merry Christmas to the patrons that handed over generous and not-so-generous holiday tips, I giggled with my 10 month old nephew on Christmas morning, I flew to Naples to see family I hadn't seen in a long time, and... I worked on my pre-work. It was a lot of activities to do with not a lot of time to do so.<br> Nevertheless, the first day of school came around and as I walked into the classroom I felt a sudden awe, hope and gratitude. I was there, I was here, I was surrounded by others with the same vision, and I was lucky. I felt so astonishingly lucky to be there, and I made it by a hair. And to top that all off, I'd recognized half of my pre-work due to the two classes I'd taken that fall at my local community college. These classes were honestly just for kicks, to gain vocabulary in the field, and to get me started if I were to get into the program. That was a pretty awesome play by me. I'm pretty smart, and I'll only get smarter from here.";
 
+blog002.title = "";
+blog002.blogEntry = "<p>One thing I want to mention first and foremost... My classmates are so incredibly smart and talented, and so supportive too. Have you ever been involved with a classroom full of people who are as excited to be there as you are, they\'re smart, talented, funny, and supportive in a way that they would literally stop what they were doing just to help you find something that\'s literally right in front of your face? Me neither. It's liberating and inspiring in a way you wouldn't believe. They're all different in the knowledge they bring, but they all have something that someone else doesn't have. </p><p>User Interface User Experience Front-End Development. This program is all about developing a product that is easy for any user to use. If a webpage takes more than 30 seconds to load, statistics show that most users leave the site entirely and try a different site, regardless of whether it's their internet connection or the website's having a hard time loading due to the amount of stuff they have embedded in it. The user's experience is crucial to any company, because every company has a website or mobile application. If they don't, then they should, because we're in an era of technology and ain't nobody got time for a business that the user can't find their information in the palm of their hands. </p> <hr width='20%' color='#8B008B'><p>  So far we've been learning about <strong>terminal</strong>. If you read that and you instantly had flashbacks filled with anxiety and stress, you know exactly what I'm talking about. Terminal. Oh, terminal, you're a hard-ass bitch and you seem to repel the lot of us, but you know... once I got to know you, you're actually really helpful and super cool. I'm excited I'm on your good side. But, there are others who still hate you due to your resting bitch-face, but they'll learn... soon enough. </p><p> We've also been learning Design, the history and principles, and what design can do for a website. We formed groups of four, and I just have to say...my group is great. We're all different, and we all have different talents. Jesie has some serious control over his Adobe XD knowledge, Sam is a critical thinker and can bring different ideas and strategies to the table, and Taylor is so organized and thorough in her work and can get into focus so easily, it amazes me. I'll write about our project in the next post.</p> <p>I also want to mention this... It's been two weeks since we started, and I still feel so lucky to be where I am.</p>";
 
+
+blog003.title = "";
+blog003.blogEntry = "<p>This week was interesting to say the least. We've been incorporating JS into our websites, and I feel a little behind. Not that I don't know what I'm doing... Well, I do but I don't if that makes sense... When we go over the work in class, I can follow and understand it when I read it, however when it comes to actually writing the code for exercise challenges, my brain suddenly goes 'boop-beep-boop-<strong>derp</strong>'. It's discouraging because I <em>know</em> I can do this.</p><p>Honestly, think it's stress-induced. I'm working part-time and not making enough mulah to pay bills <i>and</i> save, which <strong>has always and will always</strong> stress me tf out. My time-management is okay but it's been better; it was a rough start to the year at my pt and with starting this program. Both have their advantages and disadvantages: pt work takes time away from doing homework and keeping up with class, but it's how I'm able to pay bills; of course, school has the opposite effect. I just have to <strong><em>stay positive and not freak tf out</em></strong> ¯\\_(ツ)_/¯.</p><p>As for Javascript... I'm actually supposed to have these blog posts entered into the HTMl DOM <em>through</em> javascript...lolfmlyoloughfml<br></p><p style=\"text-align:center;\">To Be Continued...</p>";
+
+
+/* BLOG ENTRIES INTO THE DOM */
 
 let blogEntry001 = blog001.title + blog001.blogEntry;
+let blogEntry002 = blog002.title + blog002.blogEntry;
+let blogEntry003 = blog003.title + blog003.blogEntry;
 
 
 document.getElementById("entry-blogPost1").innerHTML = blogEntry001;
+document.getElementById("entry-blogPost2").innerHTML = blogEntry002;
+document.getElementById("entry-blogPost3").innerHTML = blogEntry003;
+
 
