@@ -4,8 +4,13 @@ html {
 	text-align: center;
 }
 
+/* @font-face {
+    font-family: "Ova Regular";
+    src: url(C:\Windows\Fonts\over-regular.ttf) format("truetype");
+} */
+
 header {
-	font-family: "Trebuchet MS", sans-serif;
+font-family: ovo, "Trebuchet MS", sans-serif;
 background-image: url("../images/blank_ampersand.png");
 background-repeat: no-repeat;
 background-position: center;
@@ -13,7 +18,7 @@ background-position: center;
 
 
 body {
-	font-family: Verdana, sans-serif;
+	font-family: muli, Verdana, sans-serif;
 	color: black;
 }
 
