@@ -19,6 +19,7 @@ function blogs(title, date, time, entry) {
 const blog001 = Object.create(blogPosts);
 const blog002 = Object.create(blogPosts);
 const blog003 = Object.create(blogPosts);
+const blog004 = Object.create(blogPosts);
 // const blog004 = Object.create(blogPosts)
 // const blog005 = Object.create(blogPosts)
 // const blog006 = Object.create(blogPosts)
@@ -39,16 +40,21 @@ blog002.blogEntry = "<p>One thing I want to mention first and foremost... My cla
 blog003.title = "";
 blog003.blogEntry = "<p>This week was interesting to say the least. We've been incorporating JS into our websites, and I feel a little behind. Not that I don't know what I'm doing... Well, I do but I don't if that makes sense... When we go over the work in class, I can follow and understand it when I read it, however when it comes to actually writing the code for exercise challenges, my brain suddenly goes 'boop-beep-boop-<strong>derp</strong>'. It's discouraging because I <em>know</em> I can do this.</p><p>Honestly, think it's stress-induced. I'm working part-time and not making enough mulah to pay bills <i>and</i> save, which <strong>has always and will always</strong> stress me tf out. My time-management is okay but it's been better; it was a rough start to the year at my pt and with starting this program. Both have their advantages and disadvantages: pt work takes time away from doing homework and keeping up with class, but it's how I'm able to pay bills; of course, school has the opposite effect. I just have to <strong><em>stay positive and not freak tf out</em></strong> ¯\\_(ツ)_/¯.</p><p>As for Javascript... I'm actually supposed to have these blog posts entered into the HTMl DOM <em>through</em> javascript...lolfmlyoloughfml<br></p><p style=\"text-align:center;\">To Be Continued...</p>";
 
+blog004.title = "";
+blog004.blogEntry = "<p>This week has been good, as in less stress-oriented and more focus-oriented. We, as a class, took the time this week to find out where we are currently in our curriculum, where we need to be, and also where we're going. We also focused on a lot of the design aspect of our program, which was much more laid-back. I mean this in a sense that, it allowed my brain (and from talking with others, a lot of other brains) to take in information a little easier. The Design aspect of our program helps us orient how our websites need, and should, look and act, so that the user's experience is comfortable and easy. For class, we're meant to read Steve Krug's \"Don't Make me Think, Revisited: A Common Sense Approach to Usability (Voices That Matter)\". This book was so enlightening to how we interact with websites and the internet, that even though I'd rented it for a class last fall, I'd bought it to read it again. The main premise of the book is 'don't make the user think'; websites should be easy to use and navigate. If you can think about a time where you were navigating a website and you were getting frustrated because you couldn't figure out where to find what you were looking for, or it was basically made like a maze, you've come across bad user experience. That's where we come in, my classmates and teacher, Susan. For someone who has never taught before, she does a very informative and engaging way of teaching what she knows about design and UX. Now, UI (user interface) is a little different, but I'll come back to that when I have more information on it. </p> <p>The last week or so, like I said, has been less stress-oriented, because now we know where we are and where we technically should be. I've learned that even with my full schedule and taking a couple days during the month to let my brain rest in order to retain the information I've bee learning at an intense rate, I'm farther ahead than much of the class. That's not a proud thing, but a relief. </p>";
+
 
 /* BLOG ENTRIES INTO THE DOM */
 
 let blogEntry001 = blog001.title + blog001.blogEntry;
 let blogEntry002 = blog002.title + blog002.blogEntry;
 let blogEntry003 = blog003.title + blog003.blogEntry;
+let blogEntry004 = blog004.title + blog004.blogEntry;
 
 
 document.getElementById("entry-blogPost1").innerHTML = blogEntry001;
 document.getElementById("entry-blogPost2").innerHTML = blogEntry002;
 document.getElementById("entry-blogPost3").innerHTML = blogEntry003;
+document.getElementById("entry-blogPost4").innerHTML = blogEntry004;
 
 

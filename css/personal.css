@@ -4,10 +4,10 @@ html {
 	text-align: center;
 }
 
-@font-face {
-    font-family: "My Custom Font";
-    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
-}
+/* @font-face {
+    font-family: "Ova Regular";
+    src: url(C:\Windows\Fonts\over-regular.ttf) format("truetype");
+} */
 
 header {
 font-family: ovo, "Trebuchet MS", sans-serif;
