@@ -10,7 +10,6 @@ const blogPosts = {
 } 
 
 
-
 function blogs(title, date, time, entry) {
     this.title = blogPosts.blogTitle(title);
     this.entry = blogPosts.blogEntry(entry);
