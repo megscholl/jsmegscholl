@@ -4,13 +4,14 @@ html {
 	text-align: center;
 }
 
-/* @font-face {
-    font-family: "Ova Regular";
-    src: url(C:\Windows\Fonts\over-regular.ttf) format("truetype");
-} */
+@font-face {
+    font-family: "Ovo Regular", "Muli-Light";
+	src: url('../fonts/ovo-regular.ttf') format("truetype"), url('../fonts/muli-light.ttf') format('trutype');
+
+}
 
 header {
-font-family: ovo, "Trebuchet MS", sans-serif;
+font-family: "Ovo Regular";
 background-image: url("../images/blank_ampersand.png");
 background-repeat: no-repeat;
 background-position: center;
@@ -18,13 +19,13 @@ background-position: center;
 
 
 body {
-	font-family: muli, Verdana, sans-serif;
+	font-family: "Muli-light", Verdana, sans-serif;
 	color: black;
 }
 
 footer {
 	font-style: italic;
-	font-family: serif;
+	font-family: "Ovo Regular";
 	font-size: small;
 	color: grey;
 }
@@ -122,9 +123,10 @@ footer p {
 }
 
 .purple {
-	font-family: serif;
+	font-family: "Ovo Regular";
+	font-weight: bold;
 	color: #8B008B;
-	font-size: 110px;
+	font-size: 120px;
 	letter-spacing: -8px;
 }
 
