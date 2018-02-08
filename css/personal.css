@@ -1,31 +1,31 @@
 /* ====== MAIN SECTIONS ====== */
 html {
-	background-color: rgb(233, 233, 233);
+	background-color: rgba(250, 249, 239, 0.938);
 	text-align: center;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Ovo Regular", "Muli-Light";
 	src: url('../fonts/ovo-regular.ttf') format("truetype"), url('../fonts/muli-light.ttf') format('trutype');
 
-}
+} */
 
-header {
-font-family: "Ovo Regular";
+/* header {
+font-family: sans-serif;
 background-image: url("../images/blank_ampersand.png");
 background-repeat: no-repeat;
 background-position: center;
-}
+} */
 
 
 body {
-	font-family: "Muli-light", Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 	color: black;
 }
 
 footer {
 	font-style: italic;
-	font-family: "Ovo Regular";
+	font-family: sans-serif;
 	font-size: small;
 	color: grey;
 }
@@ -52,7 +52,7 @@ index p {
 h1 {
 	font-variant: small-caps;
 	color: rgb(78, 72, 72);
-	font-size: 45px;
+	font-size: 32px;
 	text-align: center;
 	letter-spacing: 15px;
 	line-height: .8;
@@ -123,10 +123,10 @@ footer p {
 }
 
 .purple {
-	font-family: "Ovo Regular";
+	font-family: serif;
 	font-weight: bold;
 	color: #8B008B;
-	font-size: 120px;
+	font-size: 80px;
 	letter-spacing: -8px;
 }
 
