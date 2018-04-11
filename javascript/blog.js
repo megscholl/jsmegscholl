@@ -1,4 +1,7 @@
+"use strict";
 
+// // // // // NEED TO MAKE BLOG ENTRIES INTO CARDS \\ \\ \\ \\ \\
+// // // CREATE A DIV CONTAINER WHICH INCLUDES H1 AND BLOG ENTRY WITH PADDING \\ \\ \\
 
 const blogPosts = {
     blogTitle: function(bTitle) {
@@ -20,8 +23,7 @@ const blog001 = Object.create(blogPosts);
 const blog002 = Object.create(blogPosts);
 const blog003 = Object.create(blogPosts);
 const blog004 = Object.create(blogPosts);
-// const blog004 = Object.create(blogPosts)
-// const blog005 = Object.create(blogPosts)
+const blog005 = Object.create(blogPosts)
 // const blog006 = Object.create(blogPosts)
 
 
@@ -56,18 +58,27 @@ blog004.title = "";
 blog004.blogEntry = "<p>This week has been good, as in less stress-oriented and more focus-oriented. We, as a class, took the time this week to find out where we are currently in our curriculum, where we need to be, and also where we're going. We also focused on a lot of the design aspect of our program, which was much more laid-back. I mean this in a sense that, it allowed my brain (and from talking with others, a lot of other brains) to take in information a little easier. The Design aspect of our program helps us orient how our websites need, and should, look and act, so that the user's experience is comfortable and easy. For class, we're meant to read Steve Krug's \"Don't Make me Think, Revisited: A Common Sense Approach to Usability (Voices That Matter)\". This book was so enlightening to how we interact with websites and the internet, that even though I'd rented it for a class last fall, I'd bought it to read it again. The main premise of the book is 'don't make the user think'; websites should be easy to use and navigate. If you can think about a time where you were navigating a website and you were getting frustrated because you couldn't figure out where to find what you were looking for, or it was basically made like a maze, you've come across bad user experience. That's where we come in, my classmates and teacher, Susan. For someone who has never taught before, she does a very informative and engaging way of teaching what she knows about design and UX. Now, UI (user interface) is a little different, but I'll come back to that when I have more information on it. </p> <p>The last week or so, like I said, has been less stress-oriented, because now we know where we are and where we technically should be. I've learned that even with my full schedule and taking a couple days during the month to let my brain rest in order to retain the information I've bee learning at an intense rate, I'm farther ahead than much of the class. That's not a proud thing, but a relief. </p>";
 
 
+// BLOG ENTRY 005
+// SUMMARY: 
+
+blog005.title = "";
+blog005.blogEntry = "<p>This passed week has been a rollercoaster of coding-emotion. We had two projects, one was a short, 24-hour project, which lead me down an abyss of frustration and stress. The second one is way more complex with JS detail, implementing new programs such as Grunt, Sass, and Bootstrap. We've had three days so far to work on it, and it sounds like we also have the weekend to work on it. But, my team is actually finished. We completed our MVP and now we're working on the bonus challenges for the project. It feels so good to have completed a project, and have learned  new JS along the way and that I can actually write code :) </p> <p> My portion of the project was creating a clear all button and making it so that when clicked, an addEventListener will hear for the \"click\" which will then perform an event (function) that clears all the messages on the board. The clear all button must also disable once there are no messages on the board. That was easy, but then we realized that even when someone entered a new message, the button was still disabled. I then had to figure out how to re-enable the button once an event occurred that inputted a message from the navbar. Oh, it was a roller coaster but I feel <i>so good</i> about myself and my javascript skills now. And also, I am thankful for Google. I would not have been able to do much of anything without all the other coders in the world. Fudge yeah.</p>";
+
+
 /* BLOG ENTRIES INTO THE DOM */
 
 let blogEntry001 = blog001.title + blog001.blogEntry;
 let blogEntry002 = blog002.title + blog002.blogEntry;
 let blogEntry003 = blog003.title + blog003.blogEntry;
 let blogEntry004 = blog004.title + blog004.blogEntry;
+let blogEntry005 = blog005.title + blog005.blogEntry;
 
 
 document.getElementById("entry-blogPost1").innerHTML = blogEntry001;
 document.getElementById("entry-blogPost2").innerHTML = blogEntry002;
 document.getElementById("entry-blogPost3").innerHTML = blogEntry003;
 document.getElementById("entry-blogPost4").innerHTML = blogEntry004;
+document.getElementById("entry-blogPost5").innerHTML = blogEntry005;
 
 
 

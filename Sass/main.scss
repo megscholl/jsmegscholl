@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+$purple: #910D90;
+$white-back: rgb(248, 243, 234);
+$black: #092327;
+$grey: #026C7C;
+$blue: #00A9A5;
+$Header: 'Shadows Into Light', cursive;
+
+
 /* ====== MAIN SECTIONS ====== */
 html {
-	background-color: rgba(250, 249, 239, 0.938);
-	text-align: center;
+    background-color: $white-back;
+    text-align: center;
 }
 
 /* @font-face {
@@ -17,17 +27,20 @@ background-repeat: no-repeat;
 background-position: center;
 } */
 
+.name-intro {
+    font-family: 'Shadows Into Light';
+}
 
 body {
 	font-family: Verdana, sans-serif;
-	color: black;
+	color: $black;
 }
 
 footer {
 	font-style: italic;
 	font-family: sans-serif;
 	font-size: small;
-	color: grey;
+	color: $blue;
 }
 
 main {
@@ -51,8 +64,8 @@ index p {
 
 h1 {
 	font-variant: small-caps;
-	color: rgb(78, 72, 72);
-	font-size: 32px;
+	color: $grey;
+	font-size: 20px;
 	text-align: center;
 	letter-spacing: 15px;
 	line-height: .8;
@@ -108,11 +121,9 @@ footer p {
 	margin-right: auto;
 }
 
-/* .clearfix {
-	clear: both;
-	padding-top: 1em;
-} */
-
+blockquote {
+    width: 35%;
+}
 
 .main-img {
 	box-shadow: -.75px 10px 10px #888888;
@@ -125,7 +136,7 @@ footer p {
 .purple {
 	font-family: serif;
 	font-weight: bold;
-	color: #8B008B;
+	color: $purple;
 	font-size: 80px;
 	letter-spacing: -8px;
 }
@@ -141,8 +152,19 @@ footer p {
 } */
 
 .workFont {
-	color: #8B008B;
+	color: $purple;
 	font-style: italic;
+}
+
+.prof-link {
+	color: grey;
+}
+
+h4 {
+	font-weight: 1;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+	line-height: 1px;
 }
 
 
@@ -160,13 +182,23 @@ footer p {
 
 a:link {
     font-size: 1em;
-	color: #8B008B;
+	color: $purple;
 	font-size: 14px;
 	font-variant: small-caps;
 	text-decoration: none;
 }
+
+.disabled {
+    font-size: 1em;
+	color: $purple;
+	font-size: 14px;
+	font-variant: small-caps;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
 nav a:hover {
-    color: #8B008B;
+    color: $purple;
 	text-decoration: none;
 	font-family: 'Lucida Console';
 	font-size: 14px;
@@ -177,7 +209,7 @@ nav a:hover {
 }
 
 a:visited {
-	color: grey;
+	color: $grey;
 }
 
 
@@ -191,7 +223,7 @@ a:visited {
 
 /* ===== FEATURES =====*/
 .purpleAmps {
-	color: #8B008B;
+	color: $purple;
 }
 
 h1 a:hover {
