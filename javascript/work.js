@@ -29,15 +29,15 @@ const job003 = Object.create(jobPosts);
 // BLOG ENTRY 001 FROM JAN 5, 2018
 // SUMMARY: Coming home from London I received an email from NSS, excited and a little doomed
 
-job001.title = "Friends & Volunteer Programs Assistant &#124; Tennessee State Parks <br>";
-job001.description = "<div class=\"workFont\">play outside</div> <br> <br>";
+job001.title = "<h4>Friends & Volunteer Programs Assistant &#124; <span class='prof-link'>Tennessee State Parks</span></h4>";
+job001.description = "<div class='workFont'>&#187;Provides direct support to the Volunteer and Community Services Program Coordinator<br>	&#187;Coordinates and assists in the development of special projects related to state parks friends groups and volunteer issues throughout the state of Tennessee. <br>&#187;Project Co-Leader for a Library & Archives Project- completing state and federal grant applications to hire an archivist to preserve, organize and provide access to over 90,000 historical photographic documents, records, lecture presentations and correspondence letters.<br> </div> &#187; <a class='prof-link' href='https://www.linkedin.com/in/meghan-scholl-113a6132/' target='_blank'>Read more...</a> <br> <br>";
 
-job002.title = "Server &#124; BrickTop's Restaurant <br>";
-job002.description = "<div class=\"workFont\">serve tables</div> <br> <br>";
+job002.title = "<h4>Server &#124; <span class='prof-link'>BrickTop's Restaurant</span> </h4>";
+job002.description = "<div class='workFont'>serve tables</div>&#187; <a class='prof-link' href='https://www.linkedin.com/in/meghan-scholl-113a6132/' target='_blank'>Read more...</a> <br> <br>";
 
 
-job003.title = "Home Energy Savings AmeriCorps Memebr &#124; HandsOn Nashville <br>";
-job003.description = "<div class=\"workFont\">revitaize homes for low-income families in the metro-nashville area</div> <br> <br>";
+job003.title = "<h4>Home Energy Savings AmeriCorps Member &#124; <span class='prof-link'>HandsOn Nashville</span> </h4>";
+job003.description = "<div class=\"workFont\">revitaize homes for low-income families in the metro-nashville area</div>&#187; <a class='prof-link' href='https://www.linkedin.com/in/meghan-scholl-113a6132/' target='_blank'>Read more...</a> <br> <br>";
 
 
 /* BLOG ENTRIES INTO THE DOM */

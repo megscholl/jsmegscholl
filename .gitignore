@@ -1,0 +1,6 @@
+.vscode/
+images/
+css/
+fonts/
+lib/node_modules
+lib/.sass-cache
