@@ -4,3 +4,4 @@ css/
 fonts/
 lib/node_modules
 lib/.sass-cache
+lib/package-lock.json
