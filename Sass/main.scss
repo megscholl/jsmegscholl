@@ -14,18 +14,6 @@ html {
     text-align: center;
 }
 
-/* @font-face {
-    font-family: "Ovo Regular", "Muli-Light";
-	src: url('../fonts/ovo-regular.ttf') format("truetype"), url('../fonts/muli-light.ttf') format('trutype');
-
-} */
-
-/* header {
-font-family: sans-serif;
-background-image: url("../images/blank_ampersand.png");
-background-repeat: no-repeat;
-background-position: center;
-} */
 
 .name-intro {
     font-family: 'Shadows Into Light';
@@ -99,6 +87,10 @@ footer p {
 	margin-right: auto;
 }
 
+.block-quote {
+	min-width: 30%;
+}
+
 .blogContainer {
 	display: block;
     min-width: 40%;
@@ -128,9 +120,9 @@ blockquote {
 .main-img {
 	box-shadow: -.75px 10px 10px #888888;
 	float: left;
-	border-radius: 50%;
-	width: 220px;
-	height: 250px;
+	border-radius: 60%;
+	width: 270px;
+	height: 300px;
 }
 
 .purple {
@@ -141,23 +133,21 @@ blockquote {
 	letter-spacing: -8px;
 }
 
-/* .wrapper {
-	color: grey;
-	text-align: none;
-	display: block;
-	margin-top: 100px;
-	margin-right: 150px;
-	padding-left: 30em;
-	font-size: 14px;
-} */
 
 .workFont {
 	color: $purple;
 	font-style: italic;
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.prof-link {
-	color: grey;
+.space {
+	line-height: 25px;
+}
+
+.headingPad {
+	margin-top: 2em;
 }
 
 h4 {
@@ -165,17 +155,6 @@ h4 {
 	letter-spacing: 2px;
 	font-variant: small-caps;
 	line-height: 1px;
-}
-
-
-/* ======= ID's ======= */
-
-
-
-#flex-intro {
-	display: block;
-	max-width: 60%;
-	min-width: 40%
 }
 
 /*=========PSEUDO CLASSES==========*/
