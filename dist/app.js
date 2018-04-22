@@ -23,11 +23,11 @@ console.log("showDesignDevPage function");
     <header>
         <nav> 
             <ul>
-                <li style="line-height: 35px;"><a href="personal.html" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                    <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                <li style="line-height: 35px;"><a href="../sub-files/personal.html" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
+                    <a href="../sub-files/professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                     <span id="design--dev" class="disabled">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                    <a href="blog.html">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                    <a href="contact.html" class="links">contact</a></li>
+                    <a href="../sub-files/blog.html">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                    <a href="../sub-files/contact.html" class="links">contact</a></li>
             </ul>
         </nav>
 
