@@ -43,13 +43,13 @@ console.log("showDesignDevPage function");
                  <p class="block-quote"></p>
                     <div class="flex-item">
                             
-                        <img src="./../images/languages/bootstrap.png"/>
-                        <img src="./../images/languages/css3.png" />
-                        <img src="./../images/languages/html5.png"/>
-                        <img src="./../images/languages/javascript.png"/>
-                        <img src="./../images/languages/jquery.png"/>
-                        <img src="./../images/languages/materialize.png"/>
-                        <img src="./../images/languages/react.png"/>
+                        <img src="./../images/languages/bootstrap.png" width="4%" alt="" title=""/>
+                        <img src="./../images/languages/css3.png" width="3.5%" alt="" title=""/>
+                        <img src="./../images/languages/html5.png" width="5%" alt="" title=""/>
+                        <img src="./../images/languages/javascript.png" width="4%" alt="" title=""/>
+                        <img src="./../images/languages/jquery.png" width="4%" alt="" title=""/>
+                        <img src="./../images/languages/materialize.png" width="5%" alt="" title=""/>
+                        <img src="./../images/languages/react.png" width="4%" alt="" title=""/>
 
                     </div>  
                     <br>
@@ -59,8 +59,8 @@ console.log("showDesignDevPage function");
                     
                     <div class="flex-item">
                         
-                        <img src="./../images/affinity.png" width="42%" alt="" title=""/>
-                        <img src="./../images/prototype2.png" width="18.3%" alt="" title=""/><br>
+                        <img src="./../images/affinity.PNG" width="42%" alt="" title=""/>
+                        <img src="./../images/prototype2.PNG" width="18.3%" alt="" title=""/><br>
                         <img src="./../images/journeymap.jpg" width="30%" alt="" title=""/>
                         <img src="./../images/sitemap.jpg" width="30%" alt="" title=""/>
 
