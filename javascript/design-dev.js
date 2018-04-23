@@ -38,12 +38,24 @@ console.log("showDesignDevPage function");
 
 
         <main>
-                <h3>Planning Processes</h3>
-                <ul width="50%">
-                    <li>Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</li>
-                </ul>
+        <div class="introContainer">
+                <h3>Practiced Development</h3>
+                 <p class="block-quote"></p>
+                    <div class="flex-item">
+                            
+                        <img src="../images/languages/bootstrap.png" width="4%" alt="" title="">
+                        <img src="../images/languages/css3.png" width="3.5%" alt="" title="">
+                        <img src="../images/languages/html5.png" width="5%" alt="" title="">
+                        <img src="../images/languages/javascript.png" width="4%" alt="" title="">
+                        <img src="../images/languages/jquery.png" width="4%" alt="" title="">
+                        <img src="../images/languages/materialize.png" width="5%" alt="" title="">
+                        <img src="../images/languages/react.png" width="4%" alt="" title="">
 
-                <div class="introContainer">
+                    </div>  
+                    <br>
+                <h3>Planning Processes</h3>
+
+                    <p class="block-quote">Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</p>
                     
                     <div class="flex-item">
                         
@@ -53,8 +65,9 @@ console.log("showDesignDevPage function");
                         <img src="../images/sitemap.jpg" width="30%" alt="" title="">
 
                     </div>                    
-            
-                </div>        
+              
+                <br>
+                </div>  
 
             </main>
 

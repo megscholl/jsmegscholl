@@ -23,7 +23,8 @@ const blog001 = Object.create(blogPosts);
 const blog002 = Object.create(blogPosts);
 const blog003 = Object.create(blogPosts);
 const blog004 = Object.create(blogPosts);
-const blog005 = Object.create(blogPosts)
+const blog005 = Object.create(blogPosts);
+const blog006 = Object.create(blogPosts);
 // const blog006 = Object.create(blogPosts)
 
 
@@ -65,6 +66,13 @@ blog005.title = "";
 blog005.blogEntry = "<p>This passed week has been a rollercoaster of coding-emotion. We had two projects, one was a short, 24-hour project, which lead me down an abyss of frustration and stress. The second one is way more complex with JS detail, implementing new programs such as Grunt, Sass, and Bootstrap. We've had three days so far to work on it, and it sounds like we also have the weekend to work on it. But, my team is actually finished. We completed our MVP and now we're working on the bonus challenges for the project. It feels so good to have completed a project, and have learned  new JS along the way and that I can actually write code :) </p> <p> My portion of the project was creating a clear all button and making it so that when clicked, an addEventListener will hear for the \"click\" which will then perform an event (function) that clears all the messages on the board. The clear all button must also disable once there are no messages on the board. That was easy, but then we realized that even when someone entered a new message, the button was still disabled. I then had to figure out how to re-enable the button once an event occurred that inputted a message from the navbar. Oh, it was a roller coaster but I feel <i>so good</i> about myself and my javascript skills now. And also, I am thankful for Google. I would not have been able to do much of anything without all the other coders in the world. Fudge yeah.</p>";
 
 
+// BLOG ENTRY 005
+// SUMMARY: 
+
+blog006.title = "";
+blog005.blogEntry = "<p>This passed week has been a rollercoaster of coding-emotion. We had two projects, one was a short, 24-hour project, which lead me down an abyss of frustration and stress. The second one is way more complex with JS detail, implementing new programs such as Grunt, Sass, and Bootstrap. We've had three days so far to work on it, and it sounds like we also have the weekend to work on it. But, my team is actually finished. We completed our MVP and now we're working on the bonus challenges for the project. It feels so good to have completed a project, and have learned  new JS along the way and that I can actually write code :) </p> <p> My portion of the project was creating a clear all button and making it so that when clicked, an addEventListener will hear for the \"click\" which will then perform an event (function) that clears all the messages on the board. The clear all button must also disable once there are no messages on the board. That was easy, but then we realized that even when someone entered a new message, the button was still disabled. I then had to figure out how to re-enable the button once an event occurred that inputted a message from the navbar. Oh, it was a roller coaster but I feel <i>so good</i> about myself and my javascript skills now. And also, I am thankful for Google. I would not have been able to do much of anything without all the other coders in the world. Fudge yeah.</p>";
+
+
 /* BLOG ENTRIES INTO THE DOM */
 
 let blogEntry001 = blog001.title + blog001.blogEntry;
@@ -72,6 +80,7 @@ let blogEntry002 = blog002.title + blog002.blogEntry;
 let blogEntry003 = blog003.title + blog003.blogEntry;
 let blogEntry004 = blog004.title + blog004.blogEntry;
 let blogEntry005 = blog005.title + blog005.blogEntry;
+let blogEntry006 = blog006.title + blog006.blogEntry;
 
 
 document.getElementById("entry-blogPost1").innerHTML = blogEntry001;
@@ -79,6 +88,7 @@ document.getElementById("entry-blogPost2").innerHTML = blogEntry002;
 document.getElementById("entry-blogPost3").innerHTML = blogEntry003;
 document.getElementById("entry-blogPost4").innerHTML = blogEntry004;
 document.getElementById("entry-blogPost5").innerHTML = blogEntry005;
+document.getElementById("entry-blogPost6").innerHTML = blogEntry006;
 
 
 

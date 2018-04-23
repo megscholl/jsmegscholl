@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+/* ====== MAIN SECTIONS ====== */
+html {
+  background-color: #f8f3ea;
+  text-align: center; }
+
+.name-intro {
+  font-family: 'Shadows Into Light'; }
+
+body {
+  font-family: Verdana, sans-serif;
+  color: #092327; }
+
+footer {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: small;
+  color: #00A9A5; }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 12em; */
+  justify-content: center;
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: auto;
+  margin-bottom: auto; }
+
+index p {
+  padding-right: 10em; }
+
+/* ====== MAIN SELECTORS ====== */
+h1 {
+  font-variant: small-caps;
+  color: #026C7C;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 15px;
+  line-height: .8; }
+
+/* QUESTION --> HOW DO I TRULY CENTER THE TEXT? 
+It's not truly centered on the page... */
+li {
+  list-style: none;
+  letter-spacing: 2px; }
+
+nav ul {
+  padding-right: 2em; }
+
+footer p {
+  padding-right: 0; }
+
+/* ======= CLASSES ======= */
+.introContainer {
+  display: block;
+  min-width: 40%;
+  width: 70%;
+  margin-left: auto;
+  /* padding-right: 4.5em; */
+  margin-right: auto; }
+
+.block-quote {
+  margin-left: 27%;
+  margin-right: 30%; }
+
+.blogContainer {
+  display: block;
+  min-width: 40%;
+  width: 70%;
+  margin-left: auto;
+  padding-right: 4.5em;
+  /* margin-right: auto; */ }
+
+.amp-header {
+  background-image: url("../images/blank_ampersand.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: .2em; }
+
+.intro {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-img {
+  box-shadow: -.75px 10px 10px #888888;
+  float: left;
+  border-radius: 60%;
+  width: 270px;
+  height: 300px; }
+
+.purple {
+  font-family: serif;
+  font-weight: bold;
+  color: #910D90;
+  font-size: 80px;
+  letter-spacing: -8px; }
+
+.workFont {
+  color: #910D90;
+  font-style: italic;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.space {
+  line-height: 25px; }
+
+.headingPad {
+  margin-top: 2em; }
+
+h4 {
+  font-weight: 1;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  line-height: 1px; }
+
+/*=========PSEUDO CLASSES==========*/
+a:link, .links {
+  font-size: 1em;
+  color: #910D90;
+  font-size: 14px;
+  font-variant: small-caps;
+  text-decoration: none; }
+
+.disabled {
+  font-size: 1em;
+  color: #910D90;
+  font-size: 14px;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-decoration: underline; }
+
+nav a:hover {
+  color: #910D90;
+  text-decoration: none;
+  font-family: 'Lucida Console';
+  font-size: 14px;
+  line-height: 1.5;
+  outline: 1px dashed rgba(0, 0, 0, 0.685);
+  background-color: rgba(255, 253, 253, 0.288);
+  padding: 1em; }
+
+a:visited {
+  color: #026C7C; }
+
+/* ==========MEDIA============ */
+@media (min-width: 732px) {
+  #snapOS {
+    padding: auto; } }
+/* ===== FEATURES =====*/
+.purpleAmps {
+  color: #910D90; }
+
+h1 a:hover {
+  text-shadow: 0px 1px 1px #4e4848;
+  padding-top: 5em;
+  /* padding-right: 10px; */ }
+
+/*# sourceMappingURL=main.css.map */

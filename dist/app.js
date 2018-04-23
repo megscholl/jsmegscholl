@@ -39,12 +39,24 @@ console.log("showDesignDevPage function");
 
 
         <main>
-                <h3>Planning Processes</h3>
-                <ul width="50%">
-                    <li>Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</li>
-                </ul>
+        <div class="introContainer">
+                <h3>Practiced Development</h3>
+                 <p class="block-quote"></p>
+                    <div class="flex-item">
+                            
+                        <img src="../images/languages/bootstrap.png" width="4%" alt="" title="">
+                        <img src="../images/languages/css3.png" width="3.5%" alt="" title="">
+                        <img src="../images/languages/html5.png" width="5%" alt="" title="">
+                        <img src="../images/languages/javascript.png" width="4%" alt="" title="">
+                        <img src="../images/languages/jquery.png" width="4%" alt="" title="">
+                        <img src="../images/languages/materialize.png" width="5%" alt="" title="">
+                        <img src="../images/languages/react.png" width="4%" alt="" title="">
 
-                <div class="introContainer">
+                    </div>  
+                    <br>
+                <h3>Planning Processes</h3>
+
+                    <p class="block-quote">Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</p>
                     
                     <div class="flex-item">
                         
@@ -54,8 +66,9 @@ console.log("showDesignDevPage function");
                         <img src="../images/sitemap.jpg" width="30%" alt="" title="">
 
                     </div>                    
-            
-                </div>        
+              
+                <br>
+                </div>  
 
             </main>
 
@@ -82,18 +95,19 @@ let showMainHTML;
 
 function showMainPage() {
 console.log("showMainPage function");
-    showMainHTML = `    <header>
-    <nav> 
-        <ul>
-            <li style="line-height: 35px;"><a href="personal.html" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a id="design--dev">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a href="blog.html">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a href="contact.html" class="links">contact</a></li>
-        </ul>
-    </nav>
+    showMainHTML = `
+        <header>
+            <nav> 
+                <ul>
+                    <li style="line-height: 35px;"><a href="sub-files/personal.html" id="personal--page" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
+                        <a href="sub-files/professional.html" id="experience--page" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a href="sub-files/contact.html" id="contact--page" class="links">contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-</header>
         <div class="container">
 
                 <br>

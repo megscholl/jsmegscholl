@@ -9,18 +9,19 @@ let showMainHTML;
 
 function showMainPage() {
 console.log("showMainPage function");
-    showMainHTML = `    <header>
-    <nav> 
-        <ul>
-            <li style="line-height: 35px;"><a href="personal.html" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a id="design--dev">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a href="blog.html">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                <a href="contact.html" class="links">contact</a></li>
-        </ul>
-    </nav>
+    showMainHTML = `
+        <header>
+            <nav> 
+                <ul>
+                    <li style="line-height: 35px;"><a href="sub-files/personal.html" id="personal--page" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
+                        <a href="sub-files/professional.html" id="experience--page" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                        <a href="sub-files/contact.html" id="contact--page" class="links">contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-</header>
         <div class="container">
 
                 <br>
