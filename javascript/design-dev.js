@@ -43,13 +43,13 @@ console.log("showDesignDevPage function");
                  <p class="block-quote"></p>
                     <div class="flex-item">
                             
-                        <img src="./images/languages/bootstrap.png" width="4%" alt="" title=""/>
-                        <img src="./images/languages/css3.png" width="3.5%" alt="" title=""/>
-                        <img src="./images/languages/html5.png" width="5%" alt="" title=""/>
-                        <img src="./images/languages/javascript.png" width="4%" alt="" title=""/>
-                        <img src="./images/languages/jquery.png" width="4%" alt="" title=""/>
-                        <img src="./immages/languages/materialize.png" width="5%" alt="" title=""/>
-                        <img src="./images/languages/react.png" width="4%" alt="" title=""/>
+                        <img src="./images/languages/bootstrap.png" width="4%" alt="" title="">
+                        <img src="./images/languages/css3.png" width="3.5%" alt="" title="">
+                        <img src="./images/languages/html5.png" width="5%" alt="" title="">
+                        <img src="./images/languages/javascript.png" width="4%" alt="" title="">
+                        <img src="./images/languages/jquery.png" width="4%" alt="" title="">
+                        <img src="./immages/languages/materialize.png" width="5%" alt="" title="">
+                        <img src="./images/languages/react.png" width="4%" alt="" title="">
 
                     </div>  
                     <br>
