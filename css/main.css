@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 /* ====== MAIN SECTIONS ====== */
 html {
-  background-color: #f8f3ea;
+  background-color: #fffdf9;
   text-align: center; }
 
 .name-intro {
@@ -55,15 +55,12 @@ footer p {
 /* ======= CLASSES ======= */
 .introContainer {
   display: block;
+  font-size: 12px;
   min-width: 40%;
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   /* padding-right: 4.5em; */
   margin-right: auto; }
-
-.block-quote {
-  margin-left: 27%;
-  margin-right: 30%; }
 
 .blogContainer {
   display: block;
@@ -85,11 +82,9 @@ footer p {
   margin-right: auto; }
 
 .main-img {
-  box-shadow: -.75px 10px 10px #888888;
-  float: left;
-  border-radius: 60%;
-  width: 270px;
-  height: 300px; }
+  border-radius: 10%;
+  width: 220px;
+  height: 260px; }
 
 .purple {
   font-family: serif;
@@ -123,7 +118,8 @@ a:link, .links {
   color: #910D90;
   font-size: 14px;
   font-variant: small-caps;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 .disabled {
   font-size: 1em;

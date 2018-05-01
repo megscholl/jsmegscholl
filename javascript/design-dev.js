@@ -39,17 +39,19 @@ console.log("showDesignDevPage function");
 
         <main>
         <div class="introContainer">
-                <h3>Practiced Development</h3>
-                 <p class="block-quote"></p>
+                 
+                            
+                     <img src="./../images/ux_vs_ui.png" alt="ux vs ui diagram" title="ux vs ui diagram" width="100%">
                     <div class="flex-item">
                             
-                        <img src="./../images/languages/bootstrap.png" width="4%" alt="" title=""/>
-                        <img src="./../images/languages/css3.png" width="3.5%" alt="" title=""/>
-                        <img src="./../images/languages/html5.png" width="5%" alt="" title=""/>
-                        <img src="./../images/languages/javascript.png" width="4%" alt="" title=""/>
-                        <img src="./../images/languages/jquery.png" width="4%" alt="" title=""/>
-                        <img src="./../images/languages/materialize.png" width="5%" alt="" title=""/>
-                        <img src="./../images/languages/react.png" width="4%" alt="" title=""/>
+                <h3>Practiced Development</h3>
+                        <img src="./../images/languages/bootstrap.png" width="8%" alt="" title=""/>
+                        <img src="./../images/languages/css3.png" width="7%" alt="" title=""/>
+                        <img src="./../images/languages/html5.png" width="10%" alt="" title=""/>
+                        <img src="./../images/languages/javascript.png" width="8%" alt="" title=""/>
+                        <img src="./../images/languages/jquery.png" width="8%" alt="" title=""/>
+                        <img src="./../images/languages/materialize.png" width="10%" alt="" title=""/>
+                        <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
 
                     </div>  
                     <br>
@@ -57,14 +59,6 @@ console.log("showDesignDevPage function");
 
                     <p class="block-quote">Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</p>
                     
-                    <div class="flex-item">
-                        
-                        <img src="./../images/affinity.PNG" width="42%" alt="" title=""/>
-                        <img src="./../images/prototype2.PNG" width="18.3%" alt="" title=""/><br>
-                        <img src="./../images/journeymap.jpg" width="30%" alt="" title=""/>
-                        <img src="./../images/sitemap.jpg" width="30%" alt="" title=""/>
-
-                    </div>                    
               
                 <br>
                 </div>  
