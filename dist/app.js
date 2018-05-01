@@ -50,7 +50,7 @@ console.log("showDesignDevPage function");
                         <img src="./../images/languages/css3.png" width="7%" alt="" title=""/>
                         <img src="./../images/languages/html5.png" width="10%" alt="" title=""/>
                         <img src="./../images/languages/javascript.png" width="8%" alt="" title=""/>
-                        <img src="./../images/languages/jquery.png" width="8%" alt="" title=""/>
+                        <img src="./../images/languages/jquery_logo.png" width="8%" alt="" title=""/>
                         <img src="./../images/languages/materialize.png" width="10%" alt="" title=""/>
                         <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
 
