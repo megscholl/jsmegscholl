@@ -41,7 +41,7 @@ job002.description = "<div class='workFont'></div>";
 job003.title = "<h4>Home Energy Savings AmeriCorps Member &#124; <span class='prof-link'>HandsOn Nashville</span> </h4>";
 job003.description = "<ul class='space'><div class='workFont'><li>Revitaized homes for low-income families in the metro-nashville area, increasing their annual savings to spend on more important things like food and medicine.</div></li></ul> <br> <br>";
 
-jobNSS.title = "<h4> Apprentice UX UI Designer and Front End Developer &#124; <span class='prof-link'>Nashville Software School</span></h4>";
+jobNSS.title = "<h4>Apprentice UX UI Designer and Front End Developer &#124; <span class='prof-link'>Nashville Software School</span></h4>";
 jobNSS.description = "<ul class='space'><div class='workFont'><li>Immersive full-time software development bootcamp focusing on front-end development and UI/UX fundamentals.</div></li></ul><br> "
 
 seeMore.linked = "<a class='prof-link' href='https://www.linkedin.com/in/meghan-scholl-113a6132/' target='_blank'>Read more about my past experience on my LinkedIn page!</a>";

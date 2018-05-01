@@ -58,6 +58,10 @@ h1 {
 	line-height: .8;
 }
 
+h2 {
+	color: $blue;
+}
+
 
 /* QUESTION --> HOW DO I TRULY CENTER THE TEXT? 
 It's not truly centered on the page... */
@@ -148,8 +152,8 @@ footer p {
 }
 
 h4 {
-	font-weight: 1;
-	letter-spacing: 2px;
+	font-weight: 2;
+	letter-spacing: 1px;
 	font-variant: small-caps;
 	line-height: 1px;
 }

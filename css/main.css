@@ -40,6 +40,9 @@ h1 {
   letter-spacing: 15px;
   line-height: .8; }
 
+h2 {
+  color: #00A9A5; }
+
 /* QUESTION --> HOW DO I TRULY CENTER THE TEXT? 
 It's not truly centered on the page... */
 li {
@@ -107,8 +110,8 @@ footer p {
   margin-top: 2em; }
 
 h4 {
-  font-weight: 1;
-  letter-spacing: 2px;
+  font-weight: 2;
+  letter-spacing: 1px;
   font-variant: small-caps;
   line-height: 1px; }
 

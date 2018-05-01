@@ -45,7 +45,7 @@ console.log("showDesignDevPage function");
                      <img src="./../images/ux_vs_ui.png" alt="ux vs ui diagram" title="ux vs ui diagram" width="100%">
                     <div class="flex-item">
                             
-                <h3>Practiced Development</h3>
+                <h2>Practiced Development</h2>
                         <img src="./../images/languages/bootstrap.png" width="8%" alt="" title=""/>
                         <img src="./../images/languages/css3.png" width="7%" alt="" title=""/>
                         <img src="./../images/languages/html5.png" width="10%" alt="" title=""/>
@@ -55,14 +55,13 @@ console.log("showDesignDevPage function");
                         <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
 
                     </div>  
-                    <br>
-                <h3>Planning Processes</h3>
+                    </div> 
 
-                    <p class="block-quote">Affinity clustering, journey maps, site maps and prototyping are all essentials to great user experience research. It's important to gather this information through surveying potential users.</p>
-                    
-              
-                <br>
-                </div>  
+                    <br>
+                    <hr width="100%">
+                    <h2>2018 Mid-way Capstone: Reso</h2>
+
+ 
 
             </main>
 
