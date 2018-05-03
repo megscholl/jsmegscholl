@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 $purple: #910D90;
-$white-back: rgb(255, 253, 249);
+$white-back: rgb(252, 252, 252);
 $black: #092327;
 $grey: #026C7C;
 $blue: #00A9A5;
@@ -122,8 +122,12 @@ footer p {
 	// box-shadow: -.75px 8px 10px #888888;
 	// float: left;
 	border-radius: 10%;
-	width: 220px;
-	height: 260px;
+	width: 300px;
+	height: 350px;
+}
+
+.indent {
+	text-indent: 50px;
 }
 
 .purple {

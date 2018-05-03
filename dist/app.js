@@ -55,13 +55,12 @@ console.log("showDesignDevPage function");
                         <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
 
                     </div>  
-                    </div> 
 
                     <br>
-                    <hr width="100%">
                     <h2>2018 Mid-way Capstone: Reso</h2>
 
- 
+  
+                    </div>
 
             </main>
 
@@ -114,7 +113,7 @@ console.log("showMainPage function");
                     and i'm a
                     <br>
                     <span class="purple" style="font-size: 55px; letter-spacing: 1.3rem">ux developer</span>
-                    <br><span> html css react</span></h1>
+                    <br><span> html css js react</span></h1>
     
             </main>
             <br>
