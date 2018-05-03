@@ -45,13 +45,13 @@ console.log("showDesignDevPage function");
                     <div class="flex-item">
                             
                 <h2>Practiced Development</h2>
-                        <img src="./../images/languages/bootstrap.png" width="8%" alt="" title=""/>
-                        <img src="./../images/languages/css3.png" width="7%" alt="" title=""/>
-                        <img src="./../images/languages/html5.png" width="10%" alt="" title=""/>
-                        <img src="./../images/languages/javascript.png" width="8%" alt="" title=""/>
-                        <img src="./../images/languages/jquery_logo.png" width="8%" alt="" title=""/>
-                        <img src="./../images/languages/materialize.png" width="10%" alt="" title=""/>
-                        <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
+                        <img src="../images/languages/bootstrap.png" width="8%" alt="Bootstrap logo" title="Bootstrap logo"/>
+                        <img src="../images/languages/css3.png" width="7%" alt="CSS3 logo" title="CSS3 logo"/>
+                        <img src="../images/languages/html5.png" width="10%" alt="HTML5 logo" title="HTML5 logo"/>
+                        <img src="../images/languages/javascript.png" width="8%" alt="JAVASCRIPT LOGO" title="JAVASCRIPT LOGO"/>
+                        <img src="../images/languages/jquery_logo.png" width="8%" alt="JQUERY LOGO" title="JQUERY LOGO"/>
+                        <img src="../images/languages/materialize.png" width="11%" alt="MATERIALIZE LOGO" title="MATERIALIZE LOGO"/>
+                        <img src="../images/languages/react.png" width="8%" alt="REACT LOGO" title="REACT LOGO"/>
 
                     </div>  
 
