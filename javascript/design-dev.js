@@ -54,13 +54,12 @@ console.log("showDesignDevPage function");
                         <img src="./../images/languages/react.png" width="8%" alt="" title=""/>
 
                     </div>  
-                    </div> 
 
                     <br>
-                    <hr width="50%">
                     <h2>2018 Mid-way Capstone: Reso</h2>
 
- 
+  
+                    </div>
 
             </main>
 

@@ -35,7 +35,7 @@ console.log("showMainPage function");
                     and i'm a
                     <br>
                     <span class="purple" style="font-size: 55px; letter-spacing: 1.3rem">ux developer</span>
-                    <br><span> html css react</span></h1>
+                    <br><span> html css js react</span></h1>
     
             </main>
             <br>

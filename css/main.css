@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 /* ====== MAIN SECTIONS ====== */
 html {
-  background-color: #fffdf9;
+  background-color: #fcfcfc;
   text-align: center; }
 
 .name-intro {
@@ -86,8 +86,11 @@ footer p {
 
 .main-img {
   border-radius: 10%;
-  width: 220px;
-  height: 260px; }
+  width: 300px;
+  height: 350px; }
+
+.indent {
+  text-indent: 50px; }
 
 .purple {
   font-family: serif;
