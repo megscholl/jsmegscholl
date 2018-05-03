@@ -25,7 +25,10 @@ const blog003 = Object.create(blogPosts);
 const blog004 = Object.create(blogPosts);
 const blog005 = Object.create(blogPosts);
 const blog006 = Object.create(blogPosts);
-// const blog006 = Object.create(blogPosts)
+const blog007 = Object.create(blogPosts);
+const blog008 = Object.create(blogPosts);
+const blog009 = Object.create(blogPosts);
+const blog010 = Object.create(blogPosts);
 
 
 
@@ -66,11 +69,41 @@ blog005.title = "";
 blog005.blogEntry = "<p>This passed week has been a rollercoaster of coding-emotion. We had two projects, one was a short, 24-hour project, which lead me down an abyss of frustration and stress. The second one is way more complex with JS detail, implementing new programs such as Grunt, Sass, and Bootstrap. We've had three days so far to work on it, and it sounds like we also have the weekend to work on it. But, my team is actually finished. We completed our MVP and now we're working on the bonus challenges for the project. It feels so good to have completed a project, and have learned  new JS along the way and that I can actually write code :) </p> <p> My portion of the project was creating a clear all button and making it so that when clicked, an addEventListener will hear for the \"click\" which will then perform an event (function) that clears all the messages on the board. The clear all button must also disable once there are no messages on the board. That was easy, but then we realized that even when someone entered a new message, the button was still disabled. I then had to figure out how to re-enable the button once an event occurred that inputted a message from the navbar. Oh, it was a roller coaster but I feel <i>so good</i> about myself and my javascript skills now. And also, I am thankful for Google. I would not have been able to do much of anything without all the other coders in the world. Fudge yeah.</p>";
 
 
-// BLOG ENTRY 005
-// SUMMARY: 
+// BLOG ENTRY 006
+// SUMMARY: Cool
 
 blog006.title = "";
-blog005.blogEntry = "<p>This passed week has been a rollercoaster of coding-emotion. We had two projects, one was a short, 24-hour project, which lead me down an abyss of frustration and stress. The second one is way more complex with JS detail, implementing new programs such as Grunt, Sass, and Bootstrap. We've had three days so far to work on it, and it sounds like we also have the weekend to work on it. But, my team is actually finished. We completed our MVP and now we're working on the bonus challenges for the project. It feels so good to have completed a project, and have learned  new JS along the way and that I can actually write code :) </p> <p> My portion of the project was creating a clear all button and making it so that when clicked, an addEventListener will hear for the \"click\" which will then perform an event (function) that clears all the messages on the board. The clear all button must also disable once there are no messages on the board. That was easy, but then we realized that even when someone entered a new message, the button was still disabled. I then had to figure out how to re-enable the button once an event occurred that inputted a message from the navbar. Oh, it was a roller coaster but I feel <i>so good</i> about myself and my javascript skills now. And also, I am thankful for Google. I would not have been able to do much of anything without all the other coders in the world. Fudge yeah.</p>";
+blog006.blogEntry = "<p>Cool. Cool cool cool cool cool.</p>";
+
+
+// BLOG ENTRY 007
+// SUMMARY: Cool
+
+blog007.title = "";
+blog007.blogEntry = "<p>Today is likely the most stressful day I've come into since starting at NSS. School plus work, that's a piece of cake. I've been working 2-3 jobs, sometimes just for fun so that I stay busy, for years. In college, my junior and secior year I had school (basically a full-time job) plus an internship, plus a part-time job, plus keeping up with staying active and healthy, running all through Stanley Park, and somehow keeping somewhat of a social life. That stuff, that's easy. But today. Today was <em>stressful</em>.</p><p>Each year for the last 3 years I've lived in a different house, for one reason or another, until I found my current residence. It's a beautiful ranch-style home that I'm renting with a girl I worked with at State Parks, my Land Lord is my old boss's boyfriend, and they're honestly the nicest people I could ask for as who I give money to monthly, not to mention they gave us an incredible deal for rent... But today, he called and said 'I know we just talked about extending the lease and going month-to-month, but my parents are moving here from California and I need the house.' Of course. Of course of course of course, I could not argue and I'm actually really excited for him to have his family close again, but -- oh no, capstone's are literally right around the corner and I have to be out by the end of the month. I know my roommate is doing really well, she just got promoted, and her and her boyfriend are getting serious... What if I have to get my own place? I mean, that would be ideal, if I could get a good deal. But...capstone, I'm currently working on the most difficult group project at school yet, I have to find a new place within my budget, pack, move out, start and complete an entire capstone project, AND work at least 25 hours per week to pay my bills. I may or may not have a heart attack.</p><p>It's cool. I'm fine. LOL. Everything's fine.</p><img src='https://media.giphy.com/media/9J0w4hqUN6Yda/giphy.gif' alt='jerry fartattack parksand rec gif' title='parks and rec gif jerry fart attack'><br><h4 style='text-align: center; font-weight: bold'>UPDATE</h4><p>I put my trust in my community, and boy did they deliver. Two days after <em>the call</em> I received a message on Facebook about a small efficiency apartment just two neighborhoods over from where I currently live, I checked it out and I'm signing the lease on Saturday. How incredible is that! Nashville, you may be a pain in the butt to get around because <strong>everyone loves you</strong> and wants to be all up in your stuff, but you got some sweet people surrounding you. I'm lucky, and as always, so incredibly grateful.</p>";
+
+
+// BLOG ENTRY 008
+// SUMMARY: Cool
+
+blog008.title = "";
+blog008.blogEntry = "<p>Since my last blog entry, so much has happened. I signed my new lease and got a pretty nice little vacation... But most of all, my capstone is complete. I created a reservation system based on my experience working on the food &amp; beverage industry for almost half of my life. This experience was mainly as a greeter (or hostess, whichever you prefer), which put me in a spot of answering the very valid and mostly rhetorical question: 'What is the point of a reservation?' Well... Good question, to all of those tens of people who have asked me on a Friday or Saturday night, or God forbid Sunday brunch shift I worked. Guests of our restaurants would come in for their reservation at *set-time*, wait in line to tell me they have arrived for their reservation at *set-time* that was actually, 10-15 minutes ago, just to wait longer for their table to be ready because they didn't tell me they were here 10-15 minutes ago!!!</p><p>It's ridiculous, I know. I've seen it, learned it, understood it, numerous times... But there was never any resolution for it. So, I created Reso.</p><p>Reso is a program that allows users to create an account, create, edit, delete reservations to their favorite local restaurants, and even check-in to their reservation. Now, I already know Version 2 will have a ton more features, but the check-in is HUGE. Based on user-research, people who regularly make reservations, make reservations to garauntee a table at their set time. Of course, if their table isn't ready, that's an issue.</p><p>So, here I am. In about 2 hours I will present my capstone project to NSS and move on to the second half of my UX Design &amp; front-end development program. I'm stocked. Excited. Exhausted. And also, relieved. I survived first half, and I am so incredibly excited and happy for everyone in my cohort to go on to the next half. See you all soon!</p>";
+
+
+// BLOG ENTRY 009
+// SUMMARY: Cool
+
+blog009.title = "";
+blog009.blogEntry = "<p>AHHHHH</p>";
+
+
+// BLOG ENTRY 010
+// SUMMARY: Cool
+
+blog010.title = "";
+blog010.blogEntry = "<p>Cool. Cool cool cool cool cool.</p>";
+
+
 
 
 /* BLOG ENTRIES INTO THE DOM */
@@ -81,6 +114,10 @@ let blogEntry003 = blog003.title + blog003.blogEntry;
 let blogEntry004 = blog004.title + blog004.blogEntry;
 let blogEntry005 = blog005.title + blog005.blogEntry;
 let blogEntry006 = blog006.title + blog006.blogEntry;
+let blogEntry007 = blog007.title + blog007.blogEntry;
+let blogEntry008 = blog008.title + blog008.blogEntry;
+let blogEntry009 = blog009.title + blog009.blogEntry;
+let blogEntry010 = blog010.title + blog010.blogEntry;
 
 
 document.getElementById("entry-blogPost1").innerHTML = blogEntry001;
@@ -89,6 +126,10 @@ document.getElementById("entry-blogPost3").innerHTML = blogEntry003;
 document.getElementById("entry-blogPost4").innerHTML = blogEntry004;
 document.getElementById("entry-blogPost5").innerHTML = blogEntry005;
 document.getElementById("entry-blogPost6").innerHTML = blogEntry006;
+document.getElementById("entry-blogPost7").innerHTML = blogEntry007;
+document.getElementById("entry-blogPost8").innerHTML = blogEntry008;
+document.getElementById("entry-blogPost9").innerHTML = blogEntry009;
+document.getElementById("entry-blogPost10").innerHTML = blogEntry010;
 
 
 
