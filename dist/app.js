@@ -116,23 +116,6 @@ console.log("showDesignDevPage function");
                         <img src="../images/languages/react.png" width="8%" alt="REACT LOGO" title="REACT LOGO"/>
 
                     </div>  
-
-                    <br>
-                    <h2>2018 Mid-way Capstone: Reso</h2>
-                    <div class="row">
-                    <div class="col s12 m7">
-                      <div class="card  resoIntroduction">
-                          <h1 class="reso">Reso</h1>
-                        <div class="capstoneContentContainer">
-                          <p>I am a very simple card. I am good at containing small bits of information.
-                          I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">view reso</a> // <a href="#">view code</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
   
                     </div>
 

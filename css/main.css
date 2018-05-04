@@ -13,6 +13,12 @@ html {
   letter-spacing: 0px;
   line-height: .8; }
 
+.right {
+  float: right; }
+
+.resoIntroduction {
+  float: left; }
+
 .name-intro {
   font-family: 'Shadows Into Light'; }
 
@@ -73,12 +79,8 @@ footer p {
   margin-left: auto;
   margin-right: auto; }
 
-.resoIntroduction {
-  float: left; }
-
 .capstoneContentContainer {
   display: block;
-  float: right;
   min-width: 30%;
   width: 40%; }
 
