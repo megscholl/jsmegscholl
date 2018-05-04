@@ -25,7 +25,7 @@ function showAboutMePage() {
          <li><span class="disabled">about me</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
             <!-- <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp; -->
             <span id="design--dev" class="links">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-         <a href="blog.html">blog</a>
+         <a href="../sub-files/blog.html">blog</a>
     </ul>
 </nav>
 
@@ -119,7 +119,20 @@ console.log("showDesignDevPage function");
 
                     <br>
                     <h2>2018 Mid-way Capstone: Reso</h2>
-
+                    <div class="row">
+                    <div class="col s12 m7">
+                      <div class="card  resoIntroduction">
+                          <h1 class="reso">Reso</h1>
+                        <div class="capstoneContentContainer">
+                          <p>I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#">view reso</a> // <a href="#">view code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
   
                     </div>
 
@@ -127,7 +140,9 @@ console.log("showDesignDevPage function");
 
 
             <br>
-            <hr width="50%">`;
+            <hr width="50%">
+        
+            `;
 
 
 
@@ -141,6 +156,7 @@ module.exports={showDesignDevPage};
 
 let designDevPage = require('./design-dev');
 let aboutMePage = require('./aboutme');
+// const blogEntryPage = require('./blog.js');
 
 
 let revealMain = document.getElementById("main--container");
@@ -154,7 +170,8 @@ console.log("showMainPage function");
                 <ul>
                     <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                         <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>
+                        <a id="blog--page" class="links">blog</a>
+                      </li>
                 </ul>
             </nav>
         </header>

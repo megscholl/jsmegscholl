@@ -24,7 +24,7 @@ function showAboutMePage() {
          <li><span class="disabled">about me</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
             <!-- <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp; -->
             <span id="design--dev" class="links">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-         <a href="blog.html">blog</a>
+         <a href="../sub-files/blog.html">blog</a>
     </ul>
 </nav>
 

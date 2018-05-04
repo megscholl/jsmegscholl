@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
 /* ====== MAIN SECTIONS ====== */
 html {
   background-color: #fcfcfc;
   text-align: center; }
+
+.reso {
+  font-family: 'Satisfy' !important;
+  font-size: 60px;
+  color: #A50104 !important;
+  font-variant: normal !important;
+  letter-spacing: 0px;
+  line-height: .8; }
 
 .name-intro {
   font-family: 'Shadows Into Light'; }
@@ -17,7 +26,8 @@ footer {
   font-size: small;
   font-variant: small-caps;
   color: #00A9A5;
-  height: 228px; }
+  width: 100%;
+  height: 14.2rem; }
 
 main {
   display: flex;
@@ -61,8 +71,16 @@ footer p {
   min-width: 40%;
   width: 50%;
   margin-left: auto;
-  /* padding-right: 4.5em; */
   margin-right: auto; }
+
+.resoIntroduction {
+  float: left; }
+
+.capstoneContentContainer {
+  display: block;
+  float: right;
+  min-width: 30%;
+  width: 40%; }
 
 .blogContainer {
   display: block;
@@ -110,6 +128,11 @@ footer p {
 
 .headingPad {
   margin-top: 2em; }
+
+#reso {
+  font-family: 'Satisfy', cursive !important;
+  font-size: 80px !important;
+  color: #A50104 !important; }
 
 h4 {
   font-weight: 2;

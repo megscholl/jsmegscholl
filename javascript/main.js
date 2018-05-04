@@ -2,6 +2,7 @@
 
 let designDevPage = require('./design-dev');
 let aboutMePage = require('./aboutme');
+// const blogEntryPage = require('./blog.js');
 
 
 let revealMain = document.getElementById("main--container");
@@ -15,7 +16,8 @@ console.log("showMainPage function");
                 <ul>
                     <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                         <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>
+                        <a id="blog--page" class="links">blog</a>
+                      </li>
                 </ul>
             </nav>
         </header>
