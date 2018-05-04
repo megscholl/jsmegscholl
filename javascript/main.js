@@ -1,7 +1,7 @@
 "use strict";
 
-let reso = require('./reso'),
-    designDevPage = require('./design-dev');
+let designDevPage = require('./design-dev');
+let aboutMePage = require('./aboutme');
 
 
 let revealMain = document.getElementById("main--container");
@@ -13,11 +13,9 @@ console.log("showMainPage function");
         <header>
             <nav> 
                 <ul>
-                    <li style="line-height: 35px;"><a href="sub-files/personal.html" id="personal--page" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                        <a href="sub-files/professional.html" id="experience--page" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                    <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                         <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/contact.html" id="contact--page" class="links">contact</a></li>
+                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>
                 </ul>
             </nav>
         </header>

@@ -3,6 +3,69 @@
 let $ = require('../lib/node_modules/jquery');
 
 
+let revealAboutMePage = document.getElementById("main--container");
+let showAboutMeHTML;
+
+
+
+$(document).on("click", "#about--me", function() {
+    console.log("about me button clicked");
+     showAboutMePage();
+     });
+
+function showAboutMePage() {
+
+    console.log("showAboutMePage function coming through");
+    showAboutMeHTML = `<header>
+    <h1>
+            <a href="../index.html"> <img src="../images/signature1.png" width="25%" style="padding-top: 1em;"></a><br>
+    bstn>nshvl</h1>
+<nav> 
+    <ul>
+         <li><span class="disabled">about me</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+            <!-- <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp; -->
+            <span id="design--dev" class="links">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+         <a href="blog.html">blog</a>
+    </ul>
+</nav>
+
+<hr width="40%">
+</header>
+<div class="clearfix">
+<main>
+        <div class="introContainer">
+                <div><img class="main-img" src="../images/mesnap.jpg" alt="Photo of Meg Scholl" title="Photo of Meg Scholl"></div>
+    
+            <div style="text-align: left">
+                <p class="indent">
+                    Meg was born and raised in a small town outside of Boston, Massachusetts, where she learned about computers from her Grandfather at a fairly young age . He used programming languages for most of his career as an Actuary and was fond of teaching, which allowed Meg and her siblings to learn about the internet, and even how to take a computer apart and put it back together. Meg has always been intrigued by technology, but didn't start coding until she was about 14 years old. 
+                </p>
+                <p class="indent">
+                    At this age, Meg was comfortable with computers and internet was still relatively new, so she became very familiar with social media including LiveJournal and MySpace. Aesthetics and design have always been important to her, as is learning what makes her sites tick. Every day her site would look different because she enjoyed coding and making her site look a certain way that reflected her personality at that given time. 
+                </p>
+                    
+                <p class="indent">
+                    Since then, Meg earned her Bachelor of Science Degree from Westfield State University in Environmental Science, Regional Planning, and Geographic Information Systems (GIS). After graduating, she relocated to Nashville with her family, where she was presented with an abudance of opportunities including publishing, engineering, volunteer management and software development. She is currently enrolled in a full-time advanced UX UI Design Front-End Development program at Nashville Software School.
+                </p>
+            </div>   
+    
+        </div>        
+
+    </main>
+
+
+    <br>
+    <hr width="50%">`;
+    revealAboutMePage.innerHTML = showAboutMeHTML;
+}
+
+
+module.export = {showAboutMePage}
+},{"../lib/node_modules/jquery":4}],2:[function(require,module,exports){
+"use strict";
+let $ = require('../lib/node_modules/jquery');
+
+
 let revealDesignDevPage = document.getElementById("main--container");
 let showDesignDevHTML;
 
@@ -18,16 +81,14 @@ function showDesignDevPage() {
 console.log("showDesignDevPage function");
     showDesignDevHTML = `    <h1>
     <a href="../index.html"> <img src="../images/signature1.png" width="25%" style="padding-top: 1em;"></a><br>
-    ui / ux design</h1>
+    ux design &amp;<br> front-end development</h1>
     
     <header>
         <nav> 
             <ul>
-                <li style="line-height: 35px;"><a href="../sub-files/personal.html" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                    <a href="../sub-files/professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                     <span id="design--dev" class="disabled">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                    <a href="../sub-files/blog.html">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                    <a href="../sub-files/contact.html" class="links">contact</a></li>
+                    <a href="../sub-files/blog.html">blog</a>
             </ul>
         </nav>
 
@@ -45,7 +106,7 @@ console.log("showDesignDevPage function");
                      <img src="./../images/ux_vs_ui.png" alt="ux vs ui diagram" title="ux vs ui diagram" width="100%">
                     <div class="flex-item">
                             
-                <h2>Practiced Development</h2>
+                <h2>Programs I Use:</h2>
                         <img src="../images/languages/bootstrap.png" width="8%" alt="Bootstrap logo" title="Bootstrap logo"/>
                         <img src="../images/languages/css3.png" width="7%" alt="CSS3 logo" title="CSS3 logo"/>
                         <img src="../images/languages/html5.png" width="10%" alt="HTML5 logo" title="HTML5 logo"/>
@@ -75,11 +136,11 @@ console.log("showDesignDevPage function");
 }
 
 module.exports={showDesignDevPage};
-},{"../lib/node_modules/jquery":4}],2:[function(require,module,exports){
+},{"../lib/node_modules/jquery":4}],3:[function(require,module,exports){
 "use strict";
 
-let reso = require('./reso'),
-    designDevPage = require('./design-dev');
+let designDevPage = require('./design-dev');
+let aboutMePage = require('./aboutme');
 
 
 let revealMain = document.getElementById("main--container");
@@ -91,11 +152,9 @@ console.log("showMainPage function");
         <header>
             <nav> 
                 <ul>
-                    <li style="line-height: 35px;"><a href="sub-files/personal.html" id="personal--page" class="links">personal</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;  
-                        <a href="sub-files/professional.html" id="experience--page" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
+                    <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
                         <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a href="sub-files/contact.html" id="contact--page" class="links">contact</a></li>
+                        <a href="sub-files/blog.html" id="blog--page" class="links">blog</a>
                 </ul>
             </nav>
         </header>
@@ -128,17 +187,7 @@ console.log("showMainPage function");
 
 showMainPage();
 
-},{"./design-dev":1,"./reso":3}],3:[function(require,module,exports){
-"use strict";
-
-let showReso = document.getElementById("capstone-container");
-
-function reso() {
-    console.log("show reso inside the main page");
-}
-
-module.exports={reso};
-},{}],4:[function(require,module,exports){
+},{"./aboutme":1,"./design-dev":2}],4:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v1.12.4
  * http://jquery.com/
@@ -11148,4 +11197,4 @@ if ( !noGlobal ) {
 return jQuery;
 }));
 
-},{}]},{},[2]);
+},{}]},{},[3]);
