@@ -2,7 +2,7 @@
 
 let designDevPage = require('./design-dev');
 let aboutMePage = require('./aboutme');
-// const blogEntryPage = require('./blog.js');
+let blogPage = require('./blog');
 
 
 let revealMain = document.getElementById("main--container");
