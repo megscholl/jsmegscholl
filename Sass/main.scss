@@ -110,6 +110,16 @@ footer p {
 	margin-right: auto;
 }
 
+.projects-container {
+	width: 70%;
+}
+
+.project-desc {
+	font-size: 12px;
+	text-align: left;
+	margin-top: 7rem;
+}
+
 .capstoneContentContainer {
 	display: block;
 	min-width: 30%;
@@ -241,4 +251,8 @@ h1 a:hover {
 	text-shadow: 0px 1px 1px rgb(78, 72, 72);
 	padding-top: 5em;
 	/* padding-right: 10px; */
+}
+
+.project-links a:hover {
+	text-decoration: underline dashed;
 }
