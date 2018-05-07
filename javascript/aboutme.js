@@ -47,6 +47,14 @@ function showAboutMePage() {
                     Since then, Meg earned her Bachelor of Science Degree from Westfield State University in Environmental Science, Regional Planning, and Geographic Information Systems (GIS). After graduating, she relocated to Nashville with her family, where she was presented with an abudance of opportunities including publishing, engineering, volunteer management and software development. She is currently enrolled in a full-time advanced UX UI Design Front-End Development program at Nashville Software School.
                 </p>
             </div>   
+
+            
+        <div class="programs">
+                 
+                            
+        <img src="./../images/ux_vs_ui.png" alt="ux vs ui diagram" title="ux vs ui diagram" width="100%">
+  
+        </div>
     
         </div>        
 
