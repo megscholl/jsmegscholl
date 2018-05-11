@@ -15,8 +15,7 @@ console.log("showMainPage function");
             <nav> 
                 <ul>
                     <li style="line-height: 35px;"><a id="about--me" class="links">about me</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a id="design--dev" class="links">design &amp; development</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-                        <a id="blog--page" class="links">blog</a>
+                        <a id="design--dev" class="links">design &amp; development</a>
                       </li>
                 </ul>
             </nav>

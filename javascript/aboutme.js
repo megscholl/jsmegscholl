@@ -23,8 +23,7 @@ function showAboutMePage() {
     <ul>
          <li><span class="disabled">about me</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
             <!-- <a href="professional.html" class="links">experience</a>&nbsp;&nbsp;&#124;&nbsp;&nbsp; -->
-            <span id="design--dev" class="links">design &amp; development</span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;
-         <a id="blog--page" class="links">blog</a>
+            <span id="design--dev" class="links">design &amp; development</span>
     </ul>
 </nav>
 
@@ -49,12 +48,7 @@ function showAboutMePage() {
             </div>   
 
             
-        <div class="programs">
-                 
-                            
-        <img src="./../images/ux_vs_ui.png" alt="ux vs ui diagram" title="ux vs ui diagram" width="100%">
-  
-        </div>
+
     
         </div>        
 
