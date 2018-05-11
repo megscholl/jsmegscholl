@@ -1,6 +1,7 @@
 "use strict";
 
 let $ = require('../lib/node_modules/jquery');
+// let blogs = require('./entries');
 
 
 
