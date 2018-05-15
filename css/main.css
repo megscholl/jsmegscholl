@@ -150,8 +150,7 @@ footer p {
 h4 {
   font-weight: 2;
   letter-spacing: 1px;
-  font-variant: small-caps;
-  line-height: 1px; }
+  font-variant: small-caps; }
 
 /*=========PSEUDO CLASSES==========*/
 a:link, .links {

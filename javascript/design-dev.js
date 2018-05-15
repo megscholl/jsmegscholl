@@ -46,13 +46,45 @@ console.log("showDesignDevPage function");
             <h2 class="left-header">Projects</h2>
                 <img src="../images/image_of_reso.png" width="400px" alt="RESO" title="RESO" style="float: left"/><br>
                 <div class="project-desc" style="margin-left: 10em"><p>Reso is a reservation application that I developed for my mid-term capstone project. This product allows a user to use in with Google Authentication through Firebase, create, edit, and delete reservations to their preferred restaurant. Reso is unique in that the main feature is for the user to be able to check-in to their reservation. To learn about the UX research conducted for this project, please click <a href="https://docs.google.com/presentation/d/1gcjwK-m7v9mE-_HfLS7s5eadAqZCvxJckkhoJKZ3P4E/edit?usp=sharing" target="_blank" alt="Google document with UX research for Reso" title="Google document containing UX research for Reso" class="links">here</a>. To learn more about the development of Reso, click <a href="https://github.com/megscholl/capstone" class="project-links"  target="_blank" alt="RESO" title="RESO" class="links">here</a>.</p></div>
-            </div>
-        <br/><br/>
+            
+                        <div class="flex-item" style="text-align: right">  
+                        <h4>Technologies I used in this project:</h4>
+                            <img src="../images/languages/html5.png" width="3%" alt="HTML5 logo" title="HTML5 logo"/>
+                            <img src="../images/languages/bootstrap.png" width="3%" alt="Bootstrap logo" title="Bootstrap logo"/>
+                            <img src="../images/languages/css3.png" width="2%" alt="CSS3 logo" title="CSS3 logo"/>
+                            <img src="../images/languages/javascript.png" width="3%" alt="JAVASCRIPT LOGO" title="JAVASCRIPT LOGO">
+                            <img src="../images/languages/jquery_logo.png" width="3%" alt="JQUERY LOGO" title="JQUERY LOGO"/>
+                            <img src="../images/languages/materialize.png" width="3%" alt="MATERIALIZE LOGO" title="MATERIALIZE LOGO"/>
+                        </div>
+                </div>
+                <br/><br/>
+                <br/><br/>
+                <br/><br/>
+                <br/><br/>
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
 
             <div class="projects-container">
                 <img src="../images/tend_screen.png" width="400px" alt="Tend Income Tracker; Image credit to HopscotchArt" title="Tend Income Tracker; Image credit to HopscotchArt" style="float: right"/>
-                <div class="project-desc"><p>Tend is a personal project. I've been unable to find a budget or income tracker that appeals to me aesthetically and functionally, so I decided to make my own. This single-page application is still in development, however I have main and stretch goals in place. You may read more about Tend <a href="https://github.com/megscholl/budget-tracker" class="project-links"  target="_blank" alt="Tend Budget Tracker" title="Tend Budget Tracker">here</a>.</p></div>
+                <div class="project-desc"><p width="6em">Tend is a personal project. I've been unable to find a budget or income tracker that appeals to me aesthetically and functionally, so I decided to make my own. This single-page application is still in development, however I have main and stretch goals in place. You may read more about Tend <a href="https://github.com/megscholl/budget-tracker" class="project-links"  target="_blank" alt="Tend Budget Tracker" title="Tend Budget Tracker">here</a>.</p></div>
+            
+                <div class="projects-container">
+                <div class="flex-item" style="text-align: left">  
+                <h4 class="left-header">Technologies I used in this project</h4>
+                    <img src="../images/languages/html5.png" width="3%" alt="HTML5 logo" title="HTML5 logo"/>
+                    <img src="../images/languages/bootstrap.png" width="3%" alt="Bootstrap logo" title="Bootstrap logo"/>
+                    <img src="../images/languages/css3.png" width="2%" alt="CSS3 logo" title="CSS3 logo"/>
+                    <img src="../images/languages/javascript.png" width="3%" alt="JAVASCRIPT LOGO" title="JAVASCRIPT LOGO">
+                    <img src="../images/languages/jquery_logo.png" width="3%" alt="JQUERY LOGO" title="JQUERY LOGO"/>
+                    
+                    <h4>coming soon for this project: 
+                    <img src="../images/languages/react.png" width="3%" alt="REACT LOGO" title="REACT LOGO"/></h4>
+                </div>
             </div>
+            
+                </div>
 
 
             <br /><br />
@@ -60,23 +92,7 @@ console.log("showDesignDevPage function");
             <br /><br />
             <br /><br />
             <br /><br />
-            <br /><br />
-            <br /><br />
-            <br /><br />
-            <br /><br />
-            <br /><br />
-<div class="projects-container">
-            <div class="flex-item">  
-            <h2 class="left-header">Technologies I've Use:</h2>
-                <img src="../images/languages/html5.png" width="10%" alt="HTML5 logo" title="HTML5 logo"/>
-                <img src="../images/languages/bootstrap.png" width="8%" alt="Bootstrap logo" title="Bootstrap logo"/>
-                <img src="../images/languages/css3.png" width="7%" alt="CSS3 logo" title="CSS3 logo"/>
-                <img src="../images/languages/javascript.png" width="8%" alt="JAVASCRIPT LOGO" title="JAVASCRIPT LOGO">
-                <img src="../images/languages/jquery_logo.png" width="8%" alt="JQUERY LOGO" title="JQUERY LOGO"/>
-                <img src="../images/languages/materialize.png" width="11%" alt="MATERIALIZE LOGO" title="MATERIALIZE LOGO"/>
-                <img src="../images/languages/react.png" width="8%" alt="REACT LOGO" title="REACT LOGO"/>
-            </div>
-        </div>
+
         </main>
 
 
